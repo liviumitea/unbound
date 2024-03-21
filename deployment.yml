@@ -471,7 +471,7 @@ spec:
         app: unbound-dns
     spec:
       containers:
-        - image: mvance/unbound
+        - image: mailcow/unbound
           imagePullPolicy: IfNotPresent
           name: dns-unbound
           ports:
