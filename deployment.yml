@@ -471,7 +471,7 @@ spec:
         app: unbound-dns
     spec:
       containers:
-        - image: mailcow/unbound
+        - image: alpinelinux/unbound
           imagePullPolicy: IfNotPresent
           name: dns-unbound
           ports:
