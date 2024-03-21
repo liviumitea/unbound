@@ -1,4 +1,4 @@
-# This file is an example! Do not use before editing it!
+---
 apiVersion: v1
 kind: ConfigMap
 metadata:
