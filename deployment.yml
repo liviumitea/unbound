@@ -471,7 +471,7 @@ spec:
         app: unbound-dns
     spec:
       containers:
-        - image: alpinelinux/unbound
+        - image: alpinelinux/unbound:latest-aarch64
           imagePullPolicy: IfNotPresent
           name: dns-unbound
           ports:
