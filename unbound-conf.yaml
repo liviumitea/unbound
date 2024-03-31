@@ -135,6 +135,7 @@ data:
       local-data-ptr: "10.27.27.27 pihole.box"
       local-data: "cattle.box IN A 10.27.27.40"
       local-data-ptr: "10.27.27.40 cattle.box"
+      local-data: "adguard.megasm.ro IN A 172.16.23.23"
 
 ---
 apiVersion: v1
