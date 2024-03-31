@@ -129,7 +129,7 @@ data:
       private-domain: "box"
       domain-insecure: "box"
       local-zone: "box" transparent
-      local-zone: "megasm" static
+      local-zone: "megasm.ro" static
       local-data: "fw.box IN A 10.27.27.1"
       local-data-ptr: "10.27.27.1 fw.box"
       local-data: "pihole.box IN A 10.27.27.27"
